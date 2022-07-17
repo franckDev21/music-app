@@ -6,9 +6,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div>
+          <img style={{ borderRadius: '50%', border: '.5rem solid #61dafbaa', boxShadow: '2px 0 10px #fff22' }} src="https://avatars.githubusercontent.com/u/82069062?v=4" className="App-logo" alt="logo" />
+        </div>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          MY MUSIC APP
         </p>
         <a
           className="App-link"
